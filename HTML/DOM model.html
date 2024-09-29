@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script type="text/javascript">
+        function ShowForm()
+        {
+            const data = `
+            <form>
+                Id :<input type ="text" id="id" name="id"><br/>
+                Name:<input type ="text" id="name="Name"><br/>
+                </form>
+            `;
+            document.getElementById('form-container').innerHTML = data;
+        }
+    </script>
+  </head>
+  <body>
+    
+        <form>
+            <div id = "form-container">           
+      <input type="button" value="Login" onclick="ShowForm()">
+
+    </form>
+</div>
+  </body>
+</html>
